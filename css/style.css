@@ -1,0 +1,8 @@
+
+
+@media (min-width: 992px) {
+    #navbarScroll{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
