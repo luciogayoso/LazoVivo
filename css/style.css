@@ -1,4 +1,21 @@
+header{
+    height: 100vh;
+    background-image: url("../img/banner.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+nav{
+    opacity: 0;
+}
+
+.container-fluid{
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 1;
+}
 
 @media (min-width: 992px) {
     #navbarScroll{
