@@ -4,18 +4,27 @@ header{
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
 
-nav{
-    opacity: 0;
+.container-header{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+    height: 100vh;
 }
 
-.container-fluid{
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 1;
+.image-container h1{
+    font-size: 80px;
 }
+
+.image-container, .text-container{
+    color: aliceblue;
+}
+
 
 @media (min-width: 992px) {
     #navbarScroll{
