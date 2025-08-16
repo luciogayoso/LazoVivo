@@ -57,9 +57,104 @@ header{
     filter: invert(1);
 }
 
-@media (min-width: 992px) {
-    
+#materia{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 3% 10% 3%;
+}
 
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-materiaPrima{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-materiaPrima p{
+    text-align: center;
+}
+
+.hr-heading{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(242, 169, 66);
+    color: white;
+}
+
+#banner-inferior{
+    width: 98.5vw;
+    height: 60vh;
+    background-image: url("../img/banner-inferior.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.contacto{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 69, 70);
+    color: white;
+}
+
+.contenido-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel-correo{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+  #btn-volver-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 200;
+  }
+
+@media (min-width: 992px) {
     #navbarScroll{
         display: flex;
         justify-content: flex-end;
