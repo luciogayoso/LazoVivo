@@ -25,6 +25,37 @@ header{
     color: aliceblue;
 }
 
+.ul-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios{
+    background-color: rgb(214, 121, 58);
+}
+
+.negocio{
+    padding: 5% 2% 5% 2%;
+    background-color: rgb(214, 121, 58);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    text-align: center;
+    background-color: rgb(214, 121, 58);
+    color: aliceblue;
+}
+
+.card-img-top{
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+}
 
 @media (min-width: 992px) {
     #navbarScroll{

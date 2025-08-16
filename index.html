@@ -10,14 +10,14 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-opacity-10" data-bs-theme="dark">
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-opacity-10" data-bs-theme="dark">
   <div class="container-fluid menuLogo" >
     <a class="navbar-brand" href="#"><img width="100" src="img/logo1.png" alt="Logo lazo vivo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+      <ul class="navbar-nav my-2 my-lg-0 ul-nav" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -57,6 +57,10 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+
+        <li class="nav-item">
+          <a href="https://wa.me/5491132121106?text=Hola%20quiero%20mas%20informacion" target="_blank"><img width="50px" src="img/whatsapp.png" alt=""></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -81,25 +85,29 @@
 
   <div class="servicios">
     <div class="container">
-      <div class="row">
+      <div class="row negocio">
         <div class="col-lg-12">
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="">
+          <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <img src="img/hilo.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Negocio</h5>
+              <div class="card-text">Nos dedicamos tanto a la fabricación de cintas y cordones para la industria textil, como a la distribución de todo tipo de avios para la confección. La colocación de punteras de diferentes tipos es otro de nuestros servicios.</div>
             </div>
-            <div class="card-body"></div>
           </div>
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="">
+          <div class="card" style="width: 18rem;">
+            <img src="img/textil.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Personalización</h5>
+              <div class="card-text">Nos distinguimos por realizar diseños y desarrollos especiales, tanto en cintas como en cordones. También tenemos la posibilidad de personalizar con sus logos o marcas, cualquiera de nuestros productos.</div>
             </div>
-            <div class="card-body"></div>
           </div>
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="">
+          <div class="card" style="width: 18rem;">
+            <img src="img/entrega.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Distribución</h5>
+              <div class="card-text">Contamos con vendedores y distribuidores de nuestros productos en todo el país. La red de entregas con unidades propias en capital y provincia de Buenos Aires nos permite brindar un excelente servicio a nuestros clientes.</div>
             </div>
-            <div class="card-body"></div>
           </div>
         </div>
       </div>
