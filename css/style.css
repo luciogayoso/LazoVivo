@@ -58,8 +58,26 @@ header{
 }
 
 @media (min-width: 992px) {
+    
+
     #navbarScroll{
         display: flex;
         justify-content: flex-end;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-header{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-group{
+        display: flex;
+        flex-direction: column;
     }
 }
